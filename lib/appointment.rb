@@ -1,12 +1,12 @@
 class Appointment 
-  attr_accessor :name, :genre
+  attr_accessor :date, :doctor, :patient
   
   @@all =[]
   
   
   def initialize(name)
-    @name = name
-    @genre = genre
+    @date = date
+    @doctor = genre
     @@all << self 
   end  
     
