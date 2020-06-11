@@ -13,6 +13,8 @@ class Artist
      @@all 
     end
     
+  
+    
    
       
     
