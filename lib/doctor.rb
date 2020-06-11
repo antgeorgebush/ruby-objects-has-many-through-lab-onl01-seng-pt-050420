@@ -22,7 +22,7 @@ class Doctor
   end
   
   def patients 
-    appointments.collect{ |song|song.genre}
+    appointments.collect{|appointment|appointment.patient}
   end
   
   
