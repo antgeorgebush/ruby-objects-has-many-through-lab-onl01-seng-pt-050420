@@ -13,12 +13,12 @@ class Doctor
      @@all 
     end
     
-  def appointments  
+  def appointments
     Song.all.select { |song|song.artist == self}
   end
   
-  def new_song(name, genre)
-    Song.new(name,self,genre)
+  def new_appointment(date, patient)
+    Appointment.new(name,self,genre)
   end
   
   def genres  
